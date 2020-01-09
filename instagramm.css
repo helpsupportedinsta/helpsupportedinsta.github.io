@@ -1,0 +1,598 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  
+
+ 
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: #fff;
+ 
+ 
+
+  
+
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ 
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border:1px solid #efefef;
+  background: #fafafa;
+  border-radius:3px;
+  height:37px;
+  width:80%;
+
+
+  
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  border-color:#3897f0;
+  background-color:white;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #3897f0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:1px solid #3897f0;
+opacity: 0.9;
+cursor: pointer;
+  width: 80%;
+  
+  border-radius:4px;
+  height:5px;
+  font-size:14px;
+  text-align: center;
+vertical-align: middle;
+line-height:1px; /*or you could use 4em*/
+ 
+ 
+  
+}
+.border{
+	border:1px solid black;
+	width:100px;
+	}
+
+
+.registerbtn:hover {
+  opacity: 1;
+  background-color:#56a6f1;
+  border-color:#3897f0;
+  
+  
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.s311c {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    background-color: #efefef;
+    height: 2px;
+    position: relative;
+    top: .45em;
+	
+	
+}
+#react-root, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 2px;
+    padding:0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.K-1uj {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+	width:80%;
+	
+	
+	
+}
+.HmktE {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.rgFsT {
+    color: #262626;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+._4_yKc {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    padding-bottom: 44px;
+    width: 100%;
+}
+._9eogI {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+body, button, input, textarea {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+	
+}
+body {
+    line-height: 1;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+	
+
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+
+
+.apgoogle{
+text-align:center;
+font-size:14px;
+}
+.Rt8TI {
+    height: 40px;
+	
+}
+.Rt8TI2 {
+    height: 40px;
+	width:125px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+	
+}
+a, a:visited {
+    color: #003569;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.iNy2T {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+#react-root, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body, button, input, textarea {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.header{
+height: 65px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+   align:center;
+
+}
+
+
+._0tv-g {
+    color: #999;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.Z7p_S {
+    margin:auto;
+	padding:auto;
+}
+
+
+
+
+.inst{
+	width:15px;
+
+}
+
+.b_nGN {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px;
+    text-align: center;
+}
+@media (max-width: 875px)
+.SkY6J, .VWk7Y {
+    padding: 10px 0;
+    text-align: center;
+}
+.iseBh {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.insta {
+    color: #262626;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px 20px;
+    text-align: center;
+	
+	
+	
+	
+	
+}
+.insta a{
+color:#385185;
+padding:5px;
+
+
+
+}
+
+.block{
+width:auto;
+
+
+
+
+
+}
+.DINPA {
+    color: #999
+	 line-height: 30px;
+    margin: 10px 20px;
+    text-align: center;
+	
+}
+
+
+.MFkQJ {
+    background-color: #bd3381;
+    overflow: hidden;
+    display: block;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+._1-msl {
+    padding: 0 5px;
+}
+.VhasA {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+.ABLKx {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+#react-root, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.GfkS6 {
+    background: -webkit-gradient(linear,left top,right top,from(#bd3381),to(#ee583f));
+    background: -webkit-linear-gradient(left,#bd3381,#ee583f);
+    background: linear-gradient(to right,#bd3381,#ee583f);
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+.ZsSMR {
+    z-index: 1;
+}
+
+
+.z1VUo:last-child {
+    margin-right: 0;
+}
+a, a:visited {
+    color: #003569;
+    text-decoration: none;
+}
+.z1VUo {
+    margin-right: 8px;
+}
+.KD4vR {
+    background: 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 11px 13px 11px 11px;
+    position: relative;
+    width: 100%;
+}
+.VhasA {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.ABLKx {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.fvoD7 {
+    padding-left: 4px;
+}
+.dZvHF {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 200px;
+    -ms-flex: 1 1 200px;
+    flex: 1 1 200px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 1px;
+    padding-right: 11px;
+}
+
+._4IAxF, ._5b2Kp, .xK6EF {
+    color: #fff;
+}
+.xK6EF {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 0 2px;
+}
+
+._4IAxF, ._5b2Kp, .xK6EF {
+    color: #fff;
+}
+._5b2Kp {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    margin: 0;
+}
+.FMlV_ {
+    text-align: right;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+._4IAxF, ._5b2Kp, .xK6EF {
+    color: #fff;
+}
+._4IAxF {
+    background: 0 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14x;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.FMlV_ {
+    text-align: right;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
