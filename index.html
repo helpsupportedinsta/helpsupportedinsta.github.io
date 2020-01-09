@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Отправка форм AJAX</title>
+	<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+  width:25%;
+  text-align:center;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border:1px solid #dadada;
+  background: #f1f1f1;
+  height:40px;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color:white;
+  outline: none;
+  border-color:#3897f0;
+  
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+ 
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #3897f0;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px solid #3897f0;
+  cursor: pointer;
+  width: 90%;
+  opacity: 0.9;
+  height:50px;
+  
+ 
+}
+.border{
+	border:1px solid black;
+	width:100px;
+	background-color:white;
+	}
+
+
+.registerbtn:hover {
+  opacity: 1;
+  background-color:white;
+  color:#3897f0;
+  border-color:#3897f0;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  
+}
+</style>
+</head>
+
+<body>
+	<div class="container">
+
+
+	<form id="form">
+		<input type="text" name="name" placeholder="anun" required /><br />
+		<input type="text" name="phone" placeholder="hamar" required /><br />
+		<input type="password" name="password" placeholder="parol" required /><br />
+		<button>Отправить</button>
+	</form>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="common.js"></script>
+</body>
+</html>
